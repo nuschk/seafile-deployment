@@ -23,18 +23,11 @@ Then edit /etc/samba/smb.conf and add the folowing:
 
 # Install Docker
 
-Follow the steps here: https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#uninstall-old-versions
+Use getdocker.com
 
-	sudo apt-get update
-	sudo apt-get install \
-	    apt-transport-https \
-	    ca-certificates \
-	    curl \
-	    software-properties-common-image-extra-virtual
-	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-    curl -fsSL https://download.docker.com/linux/raspbian/gpg | sudo apt-key add -
+Then:
 
-	sudo add-apt-repository "deb [arch=armhf] https://download.docker.com/linux/raspbian $(lsb_release -cs) stable"
+	 sudo pip install docker-compose
 
 # Install seafile
 

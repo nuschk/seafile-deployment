@@ -1,0 +1,474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"em",
+				"email_address"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sma",
+				"small-12"
+			],
+			[
+				"bac",
+				"background_inverse"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"ad_d",
+				"ad_ids"
+			],
+			[
+				"cook",
+				"cookie_jar"
+			],
+			[
+				"can",
+				"canton_id"
+			],
+			[
+				"ad",
+				"ad_ids_to_update"
+			],
+			[
+				"craw",
+				"crawl_flat"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Dockerfile",
+			"settings":
+			{
+				"buffer_size": 25,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 407.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Y/seafile-deployment"
+	],
+	"file_history":
+	[
+		"/D/Projects/hello-play-akka-angular/page/info.md",
+		"/C/Users/Bernhard/.ssh/id_raspberry.ppk",
+		"/D/Projects/flatfox-diff/macro-vhost.conf",
+		"/D/Program Files (x86)/Putty/bmaeder.github.public",
+		"/D/Projects/flatfox/core/.git/config",
+		"/C/Users/Bernhard/.ssh/id_rsa.pub",
+		"/C/Users/Bernhard/.ssh/known_hosts",
+		"/C/Users/Bernhard/.ssh/bmaeder@LAPTOP",
+		"/C/Users/Bernhard/.ssh/id_rsa",
+		"/C/Users/Bernhard/.ssh/bmaeder.ec2.amazon.ppk",
+		"/D/Projects/flatfox/ff.conf",
+		"/D/Projects/ff.conf",
+		"/D/Projects/macro-vhost.conf",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/Source Code/src/ff.conf",
+		"/D/Projects/si-la-boum/si_la_boum/views.py",
+		"/D/Projects/si-la-boum/si_la_boum/settings.py",
+		"/D/Projects/si-la-boum/si_la_boum/mails.py",
+		"/D/Projects/si-la-boum/si_la_boum/templates/mails/registered.html",
+		"/D/Projects/si-la-boum/si_la_boum/templates/mails/info_new_registration.html",
+		"/D/Projects/si-la-boum/si_la_boum/models.py",
+		"/C/Users/Bernhard/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Projects/si-la-boum/si_la_boum/static/site.css",
+		"/D/Projects/si-la-boum/si_la_boum/templates/index.html",
+		"/D/Projects/si-la-boum/si_la_boum/forms.py",
+		"/D/Projects/si-la-boum/si_la_boum/templates/registered.html",
+		"/D/Projects/si-la-boum/si_la_boum/urls.py",
+		"/D/Projects/si-la-boum/si_la_boum/management/commands/populate_db.py",
+		"/D/Projects/si-la-boum/si_la_boum/admin.py",
+		"/D/Projects/si-la-boum/art assets/emails/stylesheets/email.css",
+		"/D/Projects/si-la-boum/art assets/emails/hero.html",
+		"/D/Projects/si-la-boum/art assets/emails/examples/sidebar-hero.html",
+		"/D/Projects/si-la-boum/Procfile",
+		"/D/Projects/si-la-boum/si_la_boum/templates/base.html",
+		"/D/Projects/si-la-boum/management/__init__.py",
+		"/D/Projects/si-la-boum/management/commands/populate_db.py",
+		"/D/Projects/si-la-boum/management/commands/__init__.py",
+		"/D/Projects/si-la-boum/__init__.py",
+		"/C/Users/Bernhard/Documents/flatfox.git.intern.services.refusion.com/inc/class/View/Frontend/List/Flats/Flats.inc",
+		"/D/Projects/bcv/flyway-3.0/conf/flyway.properties",
+		"/D/Projects/bcv/flyway-3.0/sql/V1__create_session.sql",
+		"/D/Projects/si-la-boum/si_la_boum/wsgi.py",
+		"/C/Users/Bernhard/Desktop/pure example/css/layouts/email.css",
+		"/C/Users/Bernhard/Desktop/pure example/index.html",
+		"/D/Projects/cljfox/src/cljfox2/handler.clj",
+		"/D/Projects/cljfox/project.clj",
+		"/D/Projects/flatfox2/app/flats/edit_flat.jade",
+		"/D/Projects/flatfox2/app/flats/edit_flat.js",
+		"/D/Projects/flatfox2/app/flats/flats_routes.js",
+		"/D/Projects/flatfox2/app/site/site_routes.js",
+		"/D/Projects/flatfox2/gulpfile.js",
+		"/D/Projects/flatfox2/app/layout/style.scss",
+		"/D/Projects/flatfox2/app/views/site/edit_flat.jade",
+		"/D/Projects/flatfox2/app/views/site/search_flats.jade",
+		"/D/Projects/flatfox2/app/views/site/edit_flat.js",
+		"/D/Projects/flatfox2/app/views/site/home.jade",
+		"/D/Projects/flatfox2/app/views/site/edit_flat.scss",
+		"/D/Projects/flatfox2/app/views/style.scss",
+		"/D/Projects/flatfox2/app/server.js",
+		"/D/Projects/flatfox2/package.json",
+		"/D/Projects/flatfox2/app/upload/upload_model.js",
+		"/D/Projects/flatfox2/app/upload/upload_routes.js",
+		"/D/Projects/flatfox2/app/views/head.jade",
+		"/D/Projects/flatfox2/app/scss/_foundation.scss",
+		"/D/Projects/flatfox2/app/config.js",
+		"/D/Projects/flatfox2/mongodb/mongodb_dev.conf",
+		"/D/Projects/flatfox2/node_modules/express/lib/middleware.js",
+		"/D/Projects/flatfox2/app/scss/application.scss",
+		"/D/Projects/flatfox2/app/views/navbar.jade",
+		"/D/Projects/flatfox2/bower.json",
+		"/D/Projects/flatfox2/bower_components/angular/angular-csp.css",
+		"/D/Projects/flatfox2/bower_components/dropzone/.bower.json",
+		"/D/Projects/flatfox2/app/views/footer.jade",
+		"/D/Projects/flatfox2/app/views/scripts_after_html.jade",
+		"/C/Users/Bernhard/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Projects/flatfox2/app/views/site/footer.jade",
+		"/D/Projects/flatfox2/bower_components/foundation/scss/foundation/components/_grid.scss",
+		"/D/Projects/flatfox2/app/public/css/application.css",
+		"/D/Projects/flatfox2/bower_components/foundation/scss/foundation/_functions.scss",
+		"/D/Projects/flatfox2/bower_components/foundation/scss/foundation.scss",
+		"/D/Projects/flatfox2/bower_components/foundation/scss/normalize.scss",
+		"/D/Projects/flatfox2/application.scss",
+		"/D/Projects/flatfox2/application.css",
+		"/D/Projects/flatfox2/app/css/.sassbuilder-config.json",
+		"/D/Projects/flatfox2/app/css/application.scss",
+		"/D/Projects/flatfox2/app/views/application.scss",
+		"/D/Projects/flatfox2/app/routes/index.js",
+		"/D/Projects/flatfox2/app/views/layout.jade",
+		"/D/Projects/flatfox2/app/views/index.jade",
+		"/D/Projects/flatfox2/app/routes/user.js",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Hedo/hedo/model.py",
+		"/D/Projects/flatfox2/app/views/site/index.jade",
+		"/D/Projects/flatfox2/app/mylib.js",
+		"/D/Projects/flatfox2/app/app.js",
+		"/D/Projects/flatfox2/config.js",
+		"/D/Projects/flatfox2/app.js",
+		"/D/Projects/flatfox2/routes/index.js",
+		"/D/Projects/flatfox2/routes/user.js",
+		"/D/Projects/flatfox2/src/server.js",
+		"/D/Projects/flatfox2/flatfox2.sublime-project",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/Users/Bernhard/Documents/flatfox.git.intern.services.refusion.com/frontend/www/_less/layout.less",
+		"/C/Users/Bernhard/Documents/flatfox.git.intern.services.refusion.com/frontend/www/_less/_variables.less",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Website/IDX Schnittstelle/SQL Stored Procedure für Realit Download.sql",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Website/IDX Schnittstelle/SQL Stored Procedure für Realit Download.docx",
+		"/C/Users/Bernhard/Documents/flatfox.git.intern.services.refusion.com/frontend/www/_less/_mixins.less",
+		"/C/Users/Bernhard/Documents/flatfox.git.intern.services.refusion.com/frontend/www/_less/vendor/bootstrap/bootstrap.less",
+		"/C/Users/Bernhard/Documents/flatfox.git.intern.services.refusion.com/frontend/www/_less/deps/bootstrap.less",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/page design Versuche/Howto Seite/So funktionieren die Auktionen - flatfox.htm",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/page design Versuche/Howto Seite/So funktionieren die Auktionen - flatfox_files/layout.css",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Hedo/crawler/network.py",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Hedo/crawler/html_helpers.py",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Hedo/crawler/flat.py",
+		"/C/Users/Bernhard/Documents/flatfox.git.intern.services.refusion.com/inc/class/View/Frontend/Page/Page.inc",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Hedo/crawler/crawl.py",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Hedo/crawler/homegate.py",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Hedo/crawler/immoscout.py",
+		"/C/Users/Bernhard/Desktop/homegate_list.html",
+		"/D/Program Files (x86)/aircrack/README",
+		"/C/Users/Bernhard/Dropbox/Projekt Mietplattform/flatfox/Hedo/hedo/2013-08-06 flats - Error.csv",
+		"/C/Users/Bernhard/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Bernhard\\Documents\\flatfox.git.intern.services.refusion.com",
+			"C:\\Users\\Bernhard\\SkyDrive\\Dokumente"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"https://download.docker.com/linux/raspbian",
+			"haiwen",
+			"\\",
+			"php-core",
+			"D:\\Projects\\flatfox\\php-core/",
+			"D:\\Projects\\flatfox\\flatfox/",
+			"D:\\Projects\\flatfox\\flatfox/d",
+			"D:\\Projects\\flatfox\\flatfox/",
+			"translate",
+			"contrib",
+			"EMAIL",
+			"ADMIN",
+			"Plätze",
+			"spaces",
+			"ad.",
+			"fileinput-button",
+			"input[type=\"file",
+			"foo/bar",
+			"routes",
+			"\",",
+			"  //\"",
+			"  \"../",
+			"GA_EVENT_ACT_VERIFY",
+			"signika",
+			"_img",
+			"ga(",
+			"_gaq.push(",
+			"immoscout",
+			"_soup",
+			"fetch_",
+			"\"immoscou"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/",
+			"flat.",
+			"\";",
+			"\"",
+			"// @import \"",
+			"@import \"../"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Dockerfile",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 25,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "seafile-deployment.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
