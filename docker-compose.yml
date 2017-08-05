@@ -1,4 +1,17 @@
-version: '2'
+version: '3'
 services:
   seafile:
     build: seafile
+    image: seafile-img
+    ports:
+      - "8082:8082"
+    command: ["seafile"]
+
+  seahub:
+    image: seafile-img
+    links:
+      - seafile
+    ports:
+      - "80:8000"
+    command: ["seahub"]
+
