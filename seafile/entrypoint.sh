@@ -4,55 +4,52 @@ set -e
 DIR=/entrypoint.sh
 PROCNAME=tbd
 
-stop_seafile() {
-    echo "Received KILL signal, shutting down seafile"
-    seafile-server-latest/seafile.sh stop
+start_seafile() {
+    echo "Starting seafile and seahub..."
+    seafile-server-latest/seafile.sh start
+    seafile-server-latest/seahub.sh start 8000
 }
 
-stop_seahub() {
-    echo "Received KILL signal, shutting down seahub"
+stop_seafile() {
+    echo "Stopping seafile and seahub..."
+    seafile-server-latest/seafile.sh stop
     seafile-server-latest/seahub.sh stop
 }
 
-
-wait_for_seafile() {
-
-    while ! nc -z localhost 8082; do
-        echo "Waiting for seafile server to start..."
-        sleep 1
-    done
-}
-
-overlord() {
+wait_while_alive() {
     while true;
     do
         sleep 1
-        if ! pgrep -f "$1" 2>/dev/null 1>&2; then
-            echo "Daemon '$1' has exited"
+        if ! pgrep -f "seafile-controller" 2>/dev/null 1>&2; then
+            echo "Seafile has exited"
             exit 1;
         fi
-        echo "$1 is alive."
+
+        if ! pgrep -f "seahub.wsgi:application" 2>/dev/null 1>&2; then
+            echo "Seahub has exited"
+            exit 1;
+        fi
+
+        echo "Seafile and seahub are still alive."
     done
 }
 
 case "$1" in
     seafile)
         seafile-server-latest/seafile.sh start
+
+        echo "bernhard.maeder@gmail.com
+123123
+123123" | seafile-server-*/reset-admin.sh
+
+        seafile-server-latest/seahub.sh start 8000
         trap stop_seafile QUIT HUP INT KILL TERM
         trap
-        overlord "seafile-controller"
-        ;;
-
-    seahub)
-        wait_for_seafile
-        seafile-server-latest/seahub.sh start 8000
-        trap stop_seahub QUIT HUP INT KILL TERM
-        trap
-        overlord "seahub.wsgi:application"
+        wait_while_alive "seafile-controller"
         ;;
 
     usage)
-        echo "seafile|seahub"
+        echo "entrypoint.sh seafile|<cmd>"
         ;;
 
     *)

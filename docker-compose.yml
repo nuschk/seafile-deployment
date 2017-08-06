@@ -4,14 +4,6 @@ services:
     build: seafile
     image: seafile-img
     ports:
+      - "80:8000"
       - "8082:8082"
     command: ["seafile"]
-
-  seahub:
-    image: seafile-img
-    links:
-      - seafile
-    ports:
-      - "80:8000"
-    command: ["seahub"]
-

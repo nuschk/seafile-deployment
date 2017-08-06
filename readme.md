@@ -1,6 +1,6 @@
 # TODO
 - [ ] Use seafile-cli to replicate the account on the Pi and expose as Samba Share
-- [ ] 
+- [ ] Redirect seafile and seahub logs to stdout/stderr (see dockerize)
 
 # Samba
 

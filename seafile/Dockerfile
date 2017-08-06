@@ -17,6 +17,9 @@ RUN tar -xzf seafile-server_* && \
 	mkdir installed && \
 	mv seafile-server_* installed
 
+# Patch reset-admin.sh to pass through arguments to django's createsuperuser
+# RUN sed -i -e 's/createsuperuser/createsuperuser "$@"/g' ./seafile-server-*/reset-admin.sh
+
 # TODO: Make configurable: site, domain.
 # TODO: Make volume of data directory
 RUN cd seafile-server-* && \
