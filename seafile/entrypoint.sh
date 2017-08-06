@@ -4,11 +4,24 @@ set -e
 DIR=/entrypoint.sh
 PROCNAME=tbd
 
+stop_seafile() {
+    echo "Received KILL signal, shutting down seafile"
+    seafile-server-latest/seafile.sh stop
+}
 
-# kill_func() {
-#     echo "Received KILL signal, shutting down daemon"
-#     pgrep "$PROCNAME" | xargs kill
-# }
+stop_seahub() {
+    echo "Received KILL signal, shutting down seahub"
+    seafile-server-latest/seahub.sh stop
+}
+
+
+wait_for_seafile() {
+
+    while ! nc -z localhost 8082; do
+        echo "Waiting for seafile server to start..."
+        sleep 1
+    done
+}
 
 overlord() {
     while true;
@@ -25,15 +38,16 @@ overlord() {
 case "$1" in
     seafile)
         seafile-server-latest/seafile.sh start
-
-        # Monitor daemon
-        # PROCNAME="seafile-controller"
-        # trap kill_func HUP INT KILL TERM
+        trap stop_seafile QUIT HUP INT KILL TERM
+        trap
         overlord "seafile-controller"
         ;;
 
     seahub)
+        wait_for_seafile
         seafile-server-latest/seahub.sh start 8000
+        trap stop_seahub QUIT HUP INT KILL TERM
+        trap
         overlord "seahub.wsgi:application"
         ;;
 

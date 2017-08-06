@@ -1,8 +1,21 @@
 {
-	"folders":
-	[
-		{
-			"path": "."
-		}
-	]
+    "folders":
+    [
+        {
+            "file_exclude_patterns":
+            [
+                "*.sublime-workspace",
+                "*DS_Store*",
+                "._.*"
+
+            ],
+            "folder_exclude_patterns":
+            [
+                ".git",
+
+            ],
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
 }

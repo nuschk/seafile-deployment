@@ -1,3 +1,7 @@
+# TODO
+- [ ] Use seafile-cli to replicate the account on the Pi and expose as Samba Share
+- [ ] 
+
 # Samba
 
 Install package and prepare shared folder
